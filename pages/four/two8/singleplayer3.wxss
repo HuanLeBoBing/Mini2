@@ -1,0 +1,47 @@
+page{
+  background-image: url("https://s3.bmp.ovh/imgs/2021/10/45b73750bcf882e9.jpg");
+  background-size: 415px 830px;
+  background-position:initial;
+}
+.touzi1{
+  position:relative;
+  height:50px;
+  width:50px;
+  top:130px;
+  right:-150px
+}
+.touzi2{
+  position:relative;
+  height:50px;
+  width:50px;
+  top:100px;
+  right:-140px
+}
+.touzi3{
+  position:relative;
+  height:50px;
+  width:50px;
+  top:130px;
+  right:-120px
+}
+.touzi4{
+  position:relative;
+  height:50px;
+  width:50px;
+  top:200px;
+  left:15px
+}
+.touzi5{
+  position:relative;
+  height:50px;
+  width:50px;
+  top:160px;
+  right:20px;
+}
+.touzi6{
+  position:relative;
+  height:50px;
+  width:50px;
+  top:200px;
+  right:30px
+}

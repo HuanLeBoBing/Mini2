@@ -1,0 +1,6 @@
+/* pages/music/music.wxss */
+page{
+  background-image: url("https://i.bmp.ovh/imgs/2021/10/da9a7ef878d3c92e.jpg");
+  background-size: 698px 1024px;
+  background-position: center;
+}

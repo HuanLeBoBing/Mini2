@@ -1,0 +1,11 @@
+<button size="default"
+        bindtap="getResult"
+        style="position:relative;top:560px;background:yellow;color:red;border-radius:45%;width:3.6cm;height:1.4cm;font-size:0.5cm;font-style:italic"
+        >结束</button>
+<button size="default"
+        bindtap="goToPrevious"
+        style="position:relative;top:-5px;right:150px;background:transparent;color:white;border-radius:45%;width:4cm;font-style:italic;text-decoration:underline"
+        >返回</button>
+       
+<image src="https://s3.bmp.ovh/imgs/2021/10/9192c47751eb0d38.gif"></image>
+

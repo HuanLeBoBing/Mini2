@@ -1,0 +1,16 @@
+<!--pages/enterARoom/enterARoom.wxml-->
+<button size="default"
+        style="position:relative;background: yellow;color:lightskyblue;top:400px"
+        bindtap="remind"
+        >确定</button>
+<view style="position:relative;top:100px;right:-130px;color:mediumturquoise;font-style:italic;font-size:1cm;font-weight:800"
+      >加入房间</view>>
+<view class="container" >
+    <view class="search-body">
+        <input type="text" bindinput="roomID" placeholder="请输入房间名称"/>     
+    </view>
+</view>
+<button size="default" 
+        bindtap="goToPrevious"
+        style="position:relative;top:-250px;right:180px;background:transparent;color:black;border-radius:45%;width:4cm;text-decoration:underline;font-style:italic"
+        >返回</button>

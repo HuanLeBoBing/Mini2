@@ -1,0 +1,19 @@
+<!--pages/createARoom/createARoom.wxml-->
+<view style="position:relative;top:100px;right:-130px;color:mediumturquoise;font-style:italic;font-size:1cm;font-weight:800">创建房间</view>>
+<view style="position:relative;top:200px;right:-40px;color:black;font-style:italic;font-size:0.7cm;font-weight:800">选择人数：</view>
+<button size="default"
+        bindtap="goToNext1"
+        style="position:relative;top:290px;right:100px;background-color:rgb(123, 255, 47);color:yellow;height:5rem;width:5rem;border-radius:30rem;font-size:x-large"
+        >2人</button>
+<button size="default"
+        bindtap="goToNext2"
+        style="position:relative;top:210px;background-color:rgb(123, 255, 47);color:yellow;height:5rem;width:5rem;border-radius:30rem;font-size:x-large"
+        >3人</button>
+<button size="default"
+        bindtap="goToNext3"
+        style="position:relative;top:130px;left:100px;background-color:rgb(123, 255, 47);color:yellow;height:5rem;width:5rem;border-radius:30rem;font-size:x-large"
+        >4人</button>
+<button size="default" 
+        bindtap="goToPrevious"
+        style="position:relative;top:-305px;right:180px;background:transparent;color:black;border-radius:45%;width:4cm;text-decoration:underline;font-style:italic"
+        >返回</button>

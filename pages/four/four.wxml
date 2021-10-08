@@ -1,0 +1,22 @@
+<!--pages/four/four.wxml-->
+<button size="default"
+        style="position:relative;top:540px;background:yellow;color:red;border-radius:45%;width:2.1cm;height:1.4cm;font-size:0.5cm;font-style:italic;right:150px"
+        >1号</button>
+<button size="default"
+        style="position:relative;top:490px;background:yellow;color:red;border-radius:50%;width:2.1cm;height:1.4cm;font-size:0.5cm;font-style:italic;right:50px"
+        >2号</button>
+<button size="default"
+        style="position:relative;top:435px;background:yellow;color:red;border-radius:50%;width:2.1cm;height:1.4cm;font-size:0.5cm;font-style:italic;left:50px"
+        >3号</button>      
+<button size="default"
+        style="position:relative;top:380px;background:yellow;color:red;border-radius:50%;width:2.1cm;height:1.4cm;font-size:0.5cm;font-style:italic;left:150px"
+        >4号</button>      
+<button size="default"
+        bindtap="goToNext"
+        style="position:relative;top:-30px;background:yellow;color:red;border-radius:60%;width:6.0cm;height:1.4cm;font-size:0.5cm;font-style:italic"
+        >1号玩家点击开始</button>
+<button size="default"
+        bindtap="goToPrevious"
+        style="position:relative;top:-250px;right:170px;background:transparent;color:white;border-radius:45%;width:4cm;font-style:italic;text-decoration:underline"
+        >返回</button>
+

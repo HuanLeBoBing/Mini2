@@ -1,0 +1,29 @@
+<!--pages/choose/choose.wxml-->
+<button size="default" 
+        bindtap="goToNext1"
+        style="position:relative;top:160px;background:yellow;color:rgb(123, 255, 47);border-radius:45%;width:5.5cm;height:1.7cm;font-size:0.8cm;font-style:italic"
+        >单人游戏</button>
+<button size="default" 
+        bindtap="goToNext2"
+        style="position:relative;top:210px;background:yellow;color:rgb(123, 255, 47);border-radius:45%;width:5.5cm;height:1.7cm;font-size:0.8cm;font-style:italic"
+        >创建房间</button>
+<button size="default" 
+        bindtap="goToNext3"
+        style="position:relative;top:260px;background:yellow;color:rgb(123, 255, 47);border-radius:45%;width:5.5cm;height:1.7cm;font-size:0.8cm;font-style:italic"
+        >加入房间</button>
+<button size="default" 
+        bindtap="goToNext4"
+        style="position:relative;top:310px;background:yellow;color:rgb(123, 255, 47);border-radius:45%;width:5.5cm;height:1.7cm;font-size:0.8cm;font-style:italic"
+        >我的中心</button>
+<button size="default" 
+        bindtap="goToPrevious"
+        style="position:relative;top:-250px;right:180px;background:transparent;color:black;border-radius:45%;width:4cm;text-decoration:underline;font-style:italic"
+        >返回</button>
+<button size="default" 
+        bindtap="goToNext5"
+        style="position:relative;top:320px;background:transparent;color:rgb(0, 140, 255);border-radius:45%;width:5.5cm;height:1.7cm;font-size:0.5cm;font-style:italic;text-decoration: underline;"
+        >游戏说明</button>
+<button size="default" 
+        bindtap="goToNext6"
+        style="position:relative;top:-360px;left:180px;background:transparent;color:black;border-radius:45%;width:4cm;text-decoration:underline;font-style:italic"
+        >设置</button>

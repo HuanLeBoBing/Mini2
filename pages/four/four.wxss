@@ -1,0 +1,6 @@
+/* pages/four/four.wxss */
+page{
+  background-image: url("https://s3.bmp.ovh/imgs/2021/10/45b73750bcf882e9.jpg");
+  background-size: 415px 830px;
+  background-position:initial;
+}

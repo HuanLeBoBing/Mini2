@@ -1,0 +1,14 @@
+<!--pages/music/music.wxml-->
+<button size="default" 
+        bindtap="goToPrevious"
+        style="position:relative;top:10px;right:180px;background:transparent;color:black;border-radius:45%;width:4cm;text-decoration:underline;font-style:italic"
+        >返回</button>
+<button size="default" 
+        bindtap="ctrlMusic"
+        style="position:relative;top:200px;background:yellow;color:rgb(123, 255, 47);border-radius:45%;width:5.5cm;height:1.7cm;font-size:0.8cm;font-style:italic"
+        >开启音乐</button>
+<button size="default" 
+        bindtap="ctrlMusic"
+        style="position:relative;top:300px;background:yellow;color:rgb(123, 255, 47);border-radius:45%;width:5.5cm;height:1.7cm;font-size:0.8cm;font-style:italic"
+        >暂停音乐</button>
+

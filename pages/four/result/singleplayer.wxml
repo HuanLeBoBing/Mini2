@@ -1,0 +1,11 @@
+<!--pages/singleplayer/singleplayer.wxml-->
+<button size="default"
+        bindtap="goToNext"
+        style="position:relative;top:560px;background:yellow;color:red;border-radius:45%;width:3.6cm;height:1.4cm;font-size:0.5cm;font-style:italic"
+        >再来一次</button>
+<button size="default"
+        bindtap="goToPrevious"
+        style="position:relative;top:-30px;right:180px;background:transparent;color:white;border-radius:45%;width:4cm;font-style:italic;text-decoration:underline"
+        >返回</button>
+<text style="color:red;font-style:italic;font-size:0.7cm;align-items:center;display:flex;justify-content:center;"
+        >{{res}}</text>

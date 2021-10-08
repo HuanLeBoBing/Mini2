@@ -1,0 +1,13 @@
+<!--pages/basicInfo/basicInfo.wxml-->
+<button size="default" 
+        bindtap="goToPrevious"
+        style="position:relative;top:-10px;right:180px;background:transparent;color:black;border-radius:45%;width:4cm;text-decoration:underline;font-style:italic"
+        >返回</button>
+<view style="color:lime;position:relative;top:70px;right:-100px;font-weight:3000;font-size:1cm;font-style:italic;">我的基本信息</view>
+<view size="default"
+      style="position:relative;top:140px;right:-50px;font-style:italic;font-weight: 700;background: transparent;color:deepskyblue;font-size:0.8cm"
+>头像：</view>
+<text size="default"
+      style="position:relative;top:200px;right:-50px;font-style:italic;font-weight: 700;background: transparent;color:deepskyblue;font-size:0.8cm"
+>{{msg}}</text>
+<image src="https://s3.bmp.ovh/imgs/2021/10/3ab7d1b60585e5f1.png"></image>

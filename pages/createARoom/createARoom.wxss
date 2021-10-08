@@ -1,0 +1,52 @@
+/* pages/createARoom/createARoom.wxss */
+page{
+  background-image: url("https://i.bmp.ovh/imgs/2021/10/b2aa4a1ca2d7237d.png");
+  background-size: 750px 1134px;
+  background-position: center;
+}
+  
+.search-body {
+  position: absolute;
+  width: 600rpx;
+  height: 76rpx;
+  margin: 0 auto;
+  line-height: 76rpx;
+  top: 30%;
+  left: 50%;
+  margin-left: -300rpx;
+  columns: #888;
+  border: 1rpx solid #888;
+  border-radius: 40rpx;
+}
+
+.search-body input {
+  display: inline-block;
+  width: 500rpx;
+  height: 76rpx;
+  padding-left: 34rpx;
+}
+
+.search-body input::-webkit-input-placeholder {
+  color: #b2b2b2;
+}
+
+.search-body-icon {
+  position: absolute;
+  top: 50%;
+  right: 20rpx;
+  height: 76rpx;
+  margin-top: -30rpx;
+  line-height: 76rpx;
+}
+
+.search-body-icon image {
+  width: 38rpx;
+  height: 38rpx;
+}
+.Undreaming_Body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
