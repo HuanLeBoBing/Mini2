@@ -1,0 +1,37 @@
+<!--pages/singleplayer/singleplayer.wxml-->
+<button size="default"
+        bindtap="goToNext"
+        style="position:relative;top:560px;background:yellow;color:red;border-radius:45%;width:3.6cm;height:1.4cm;font-size:0.5cm;font-style:italic"
+        >再来一次</button>
+<button size="default"
+        bindtap="goToPrevious"
+        style="position:relative;top:-30px;right:180px;background:transparent;color:white;border-radius:45%;width:4cm;font-style:italic;text-decoration:underline"
+        >返回</button>
+<text wx:if="{{res==1}}"style="color:red;font-style:italic;font-size:0.7cm;align-items:center;display:flex;justify-content:center;"
+        >{{msg1}}</text>
+<text wx:if="{{res==2}}"style="color:red;font-style:italic;font-size:0.7cm;align-items:center;display:flex;justify-content:center;"
+        >{{msg2}}</text>
+<text wx:if="{{res==3}}"style="color:red;font-style:italic;font-size:0.7cm;align-items:center;display:flex;justify-content:center;"
+        >{{msg3}}</text>
+<text wx:if="{{res==4}}"style="color:red;font-style:italic;font-size:0.7cm;align-items:center;display:flex;justify-content:center;"
+        >{{msg4}}</text>
+<text wx:if="{{res==5}}"style="color:red;font-style:italic;font-size:0.7cm;align-items:center;display:flex;justify-content:center;"
+        >{{msg5}}</text>
+<text wx:if="{{res==6}}"style="color:red;font-style:italic;font-size:0.7cm;align-items:center;display:flex;justify-content:center;"
+        >{{msg6}}</text>
+<view wx:if="{{res==7}}"style="color:red;font-style:italic;font-size:1.6cm;align-items:center;display:flex;justify-content:center;"
+        >{{"平局"}}</view>
+<text wx:if="{{res==8}}"style="color:red;font-style:italic;font-size:0.7cm;align-items:center;display:flex;justify-content:center;"
+        >{{msg8}}</text>
+<text wx:if="{{res==9}}"style="color:red;font-style:italic;font-size:0.7cm;align-items:center;display:flex;justify-content:center;"
+        >{{msg9}}</text>
+<text wx:if="{{res==10}}"style="color:red;font-style:italic;font-size:0.7cm;align-items:center;display:flex;justify-content:center;"
+        >{{msg10}}</text>
+<text wx:if="{{res==11}}"style="color:red;font-style:italic;font-size:0.7cm;align-items:center;display:flex;justify-content:center;"
+        >{{msg11}}</text>
+<text wx:if="{{res==12}}"style="color:red;font-style:italic;font-size:0.7cm;align-items:center;display:flex;justify-content:center;"
+        >{{msg12}}</text>
+<text wx:if="{{res==13}}"style="color:red;font-style:italic;font-size:0.7cm;align-items:center;display:flex;justify-content:center;"
+        >{{msg13}}</text>
+
+

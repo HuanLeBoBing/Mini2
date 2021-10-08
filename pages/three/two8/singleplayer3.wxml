@@ -1,0 +1,55 @@
+<button size="default"
+        bindtap="goToPrevious"
+        style="position:relative;top:-5px;right:180px;background:transparent;color:white;border-radius:45%;width:4cm;font-style:italic;text-decoration:underline"
+        >返回</button> 
+ <view style="color:red;font-style:italic;font-size:1cm;align-items:center;display:flex; justify-content:center;"
+        >{{"3号玩家"}}</view>
+<view style="color:red;font-style:italic;font-size:1cm;align-items:center;display:flex;justify-content:center;"
+        >{{result3}}</view>
+<button size="default"
+        bindtap="goToNext"
+        style="position:relative;top:420px;background:yellow;color:red;border-radius:45%;width:3.6cm;height:1.4cm;font-size:0.5cm;font-style:italic"
+        >继续</button>
+
+
+<image wx:if="{{a==1}}"src="https://i.bmp.ovh/imgs/2021/10/b3624bddf55f8d02.gif"class="touzi1"></image>
+<image wx:elif="{{a==2}}"src="https://s3.bmp.ovh/imgs/2021/10/ddcf7ae6f95554b1.gif"class="touzi1"></image>
+<image wx:elif="{{a==3}}"src="https://i.bmp.ovh/imgs/2021/10/bf05ea356be0353c.gif"class="touzi1"></image>
+<image wx:elif="{{a==4}}"src="https://s3.bmp.ovh/imgs/2021/10/b6086a27597cfd56.gif"class="touzi1"></image>
+<image wx:elif="{{a==5}}"src="https://s3.bmp.ovh/imgs/2021/10/013b186fb2103fe0.gif"class="touzi1"></image>
+<image wx:else="{{a==6}}"src="https://s3.bmp.ovh/imgs/2021/10/4033ab3657c6b3fe.gif"class="touzi1"></image> 
+
+<image wx:if="{{b==1}}"src="https://i.bmp.ovh/imgs/2021/10/b3624bddf55f8d02.gif"class="touzi2"></image>
+<image wx:elif="{{b==2}}"src="https://s3.bmp.ovh/imgs/2021/10/ddcf7ae6f95554b1.gif"class="touzi2"></image>
+<image wx:elif="{{b==3}}"src="https://i.bmp.ovh/imgs/2021/10/bf05ea356be0353c.gif"class="touzi2"></image>
+<image wx:elif="{{b==4}}"src="https://s3.bmp.ovh/imgs/2021/10/b6086a27597cfd56.gif"class="touzi2"></image>
+<image wx:elif="{{b==5}}"src="https://s3.bmp.ovh/imgs/2021/10/013b186fb2103fe0.gif"class="touzi2"></image>
+<image wx:else="{{b==6}}"src="https://s3.bmp.ovh/imgs/2021/10/4033ab3657c6b3fe.gif"class="touzi2"></image> 
+
+<image wx:if="{{c==1}}"src="https://i.bmp.ovh/imgs/2021/10/b3624bddf55f8d02.gif"class="touzi3"></image>
+<image wx:elif="{{c==2}}"src="https://s3.bmp.ovh/imgs/2021/10/ddcf7ae6f95554b1.gif"class="touzi3"></image>
+<image wx:elif="{{c==3}}"src="https://i.bmp.ovh/imgs/2021/10/bf05ea356be0353c.gif"class="touzi3"></image>
+<image wx:elif="{{c==4}}"src="https://s3.bmp.ovh/imgs/2021/10/b6086a27597cfd56.gif"class="touzi3"></image>
+<image wx:elif="{{c==5}}"src="https://s3.bmp.ovh/imgs/2021/10/013b186fb2103fe0.gif"class="touzi3"></image>
+<image wx:else="{{c==6}}"src="https://s3.bmp.ovh/imgs/2021/10/4033ab3657c6b3fe.gif"class="touzi3"></image>
+
+<image wx:if="{{d==1}}"src="https://i.bmp.ovh/imgs/2021/10/b3624bddf55f8d02.gif"class="touzi4"></image>
+<image wx:elif="{{d==2}}"src="https://s3.bmp.ovh/imgs/2021/10/ddcf7ae6f95554b1.gif"class="touzi4"></image>
+<image wx:elif="{{d==3}}"src="https://i.bmp.ovh/imgs/2021/10/bf05ea356be0353c.gif"class="touzi4"></image>
+<image wx:elif="{{d==4}}"src="https://s3.bmp.ovh/imgs/2021/10/b6086a27597cfd56.gif"class="touzi4"></image>
+<image wx:elif="{{d==5}}"src="https://s3.bmp.ovh/imgs/2021/10/013b186fb2103fe0.gif"class="touzi4"></image>
+<image wx:else="{{d==6}}"src="https://s3.bmp.ovh/imgs/2021/10/4033ab3657c6b3fe.gif"class="touzi4"></image>
+
+<image wx:if="{{e==1}}"src="https://i.bmp.ovh/imgs/2021/10/b3624bddf55f8d02.gif"class="touzi5"></image>
+<image wx:elif="{{e==2}}"src="https://s3.bmp.ovh/imgs/2021/10/ddcf7ae6f95554b1.gif"class="touzi5"></image>
+<image wx:elif="{{e==3}}"src="https://i.bmp.ovh/imgs/2021/10/bf05ea356be0353c.gif"class="touzi5"></image>
+<image wx:elif="{{e==4}}"src="https://s3.bmp.ovh/imgs/2021/10/b6086a27597cfd56.gif"class="touzi5"></image>
+<image wx:elif="{{e==5}}"src="https://s3.bmp.ovh/imgs/2021/10/013b186fb2103fe0.gif"class="touzi5"></image>
+<image wx:else="{{e==6}}"src="https://s3.bmp.ovh/imgs/2021/10/4033ab3657c6b3fe.gif"class="touzi5"></image>
+
+<image wx:if="{{f==1}}"src="https://i.bmp.ovh/imgs/2021/10/b3624bddf55f8d02.gif"class="touzi6"></image>
+<image wx:elif="{{f==2}}"src="https://s3.bmp.ovh/imgs/2021/10/ddcf7ae6f95554b1.gif"class="touzi6"></image>
+<image wx:elif="{{f==3}}"src="https://i.bmp.ovh/imgs/2021/10/bf05ea356be0353c.gif"class="touzi6"></image>
+<image wx:elif="{{f==4}}"src="https://s3.bmp.ovh/imgs/2021/10/b6086a27597cfd56.gif"class="touzi6"></image>
+<image wx:elif="{{f==5}}"src="https://s3.bmp.ovh/imgs/2021/10/013b186fb2103fe0.gif"class="touzi6"></image>
+<image wx:else="{{f==6}}"src="https://s3.bmp.ovh/imgs/2021/10/4033ab3657c6b3fe.gif"class="touzi6"></image>
