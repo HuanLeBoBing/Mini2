@@ -1,0 +1,13 @@
+<!--pages/start/start.wxml-->
+<button size="default" 
+        bindtap="goToNext" 
+        style="position:relative;top:580px;right:90px;background:yellow;color:red;border-radius:45%;width:4cm;"
+        >开始游戏</button>
+<button size="default" 
+        style="position:relative;top:540px;left:90px;background:yellow;color:red;border-radius:45%;width:4cm;"
+        >返回</button>
+<text style="position:relative;top:10px;left:125px;color: black;font-style:italic;font-size:2cm;        font-weight:800;"
+        >{{msg}}</text>
+<text style="position:relative;top:100px;left:-35px;color: black;font-style:italic;font-size:2cm;font-weight:800;"
+        >{{msg1}}</text>
+

@@ -1,0 +1,10 @@
+<!--pages/score/score.wxml-->
+<button size="default" 
+        bindtap="goToPrevious"
+        style="position:relative;top:-10px;right:180px;background:transparent;color:black;border-radius:45%;width:4cm;text-decoration:underline;font-style:italic"
+        >返回</button>
+<view style="color:green;position:relative;top:100px;right:-130px;font-weight:3000;font-size:1cm;font-style:italic;">我的战绩</view>
+<button size="default"
+        style="position:relative;background: yellow;color:lightskyblue;top:300px"
+        bindtap="remind"
+        >查询</button>

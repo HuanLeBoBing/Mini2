@@ -1,0 +1,19 @@
+<!--pages/myCenter/myCenter.wxml-->
+<view style="position:relative;top:100px;right:-130px;color:mediumturquoise;font-style:italic;font-size:1cm;font-weight:800;"
+      >我的中心</view>>
+<button size="default"
+        style="position:relative;top:200px;background:mediumspringgreen;color:yellow;border-radius:45%;width:7cm;height:1.7cm;font-size:0.8cm;font-style:italic"
+        bindtap="goToNext1"
+        >我的基本信息</button> 
+<button size="default"
+        style="position:relative;top:250px;background:mediumspringgreen;color:yellow;border-radius:45%;width:7cm;height:1.7cm;font-size:0.8cm;font-style:italic"
+        bindtap="goToNext2"
+        >我的战绩</button>
+<button size="default"
+        style="position:relative;top:300px;background:mediumspringgreen;color:yellow;border-radius:45%;width:7cm;height:1.7cm;font-size:0.8cm;font-style:italic"
+        bindtap="goToNext3"
+        >我的好友</button>
+<button size="default" 
+        bindtap="goToPrevious"
+        style="position:relative;top:-225px;right:180px;background:transparent;color:black;border-radius:45%;width:4cm;text-decoration:underline;font-style:italic"
+        >返回</button>

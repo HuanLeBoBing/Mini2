@@ -1,0 +1,6 @@
+/* pages/score/score.wxss */
+page{
+  background-image: url("https://i.bmp.ovh/imgs/2021/10/b2aa4a1ca2d7237d.png");
+  background-size: 750px 1134px;
+  background-position: center;
+}

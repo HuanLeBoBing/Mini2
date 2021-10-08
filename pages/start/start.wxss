@@ -1,0 +1,6 @@
+/* pages/start/start.wxss */
+page{
+  background-image: url("https://i.bmp.ovh/imgs/2021/10/64322e4b026cf96a.jpg");
+  background-size: 698px 900px;
+  background-position: center;
+}
