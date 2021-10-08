@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/start/start",
+    "pages/choose/choose",
+    "pages/bgm/bgm",
+    "pages/singleplayer/singleplayer",
+    "pages/singleplayer2/singleplayer2",
+    "pages/singleplayer3/singleplayer3",
+    "pages/createARoom/createARoom",
+    "pages/two/two",
+    "pages/three/three",
+    "pages/four/four",
+    "pages/enterARoom/enterARoom",
+    "pages/myCenter/myCenter",
+    "pages/basicInfo/basicInfo",
+    "pages/score/score",
+    "pages/friends/friends",
+    "pages/gameInstructions/gameInstructions",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
