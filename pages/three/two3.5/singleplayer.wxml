@@ -10,7 +10,7 @@
         >3号</button>      
 <button size="default"
         bindtap="goToNext"
-        style="position:relative;top:180px;background:yellow;color:red;border-radius:60%;width:6.0cm;height:1.4cm;font-size:0.5cm;font-style:italic"
+        style="position:relative;top:20px;background:yellow;color:red;border-radius:60%;width:6.0cm;height:1.4cm;font-size:0.5cm;font-style:italic"
         >2号玩家点击开始</button>
 <button size="default"
         bindtap="goToPrevious"
